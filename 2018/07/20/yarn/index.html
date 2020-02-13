@@ -74,7 +74,7 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="Never_yu's Blog" type="application/atom+xml" />
+  <link rel="alternate" href="/atom.xml" title="Beilier's Blog" type="application/atom+xml" />
 
 
 
@@ -89,8 +89,8 @@
 <meta name="description" content="背景在 Node 生态系统中，依赖通常安装在项目的 node_modules 文件夹中。然而，这个文件的结构和实际依赖树可能有所区别，因为重复的依赖可以合并到一起。npm 客户端把依赖安装到 node_modules 目录的过程具有不确定性。这意味着当依赖的安装顺序不同时，node_modules 目录的结构可能会发生变化。这种差异可能会导致类似“我的电脑上可以运行，别的电脑上不行”的情况，并且通">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Yarn安装与使用详细介绍">
-<meta property="og:url" content="https://neveryu.github.io/2018/07/20/yarn/index.html">
-<meta property="og:site_name" content="Never_yu's Blog">
+<meta property="og:url" content="https://beiliergo.github.io/2018/07/20/yarn/index.html">
+<meta property="og:site_name" content="Beilier's Blog">
 <meta property="og:description" content="背景在 Node 生态系统中，依赖通常安装在项目的 node_modules 文件夹中。然而，这个文件的结构和实际依赖树可能有所区别，因为重复的依赖可以合并到一起。npm 客户端把依赖安装到 node_modules 目录的过程具有不确定性。这意味着当依赖的安装顺序不同时，node_modules 目录的结构可能会发生变化。这种差异可能会导致类似“我的电脑上可以运行，别的电脑上不行”的情况，并且通">
 <meta property="og:image" content="https://img-blog.csdn.net/20180824142908356?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NzZG5feXVkb25n/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
 <meta property="og:image" content="https://img-blog.csdn.net/20180824120236673?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NzZG5feXVkb25n/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
@@ -119,12 +119,12 @@
 
 
 
-  <link rel="canonical" href="https://neveryu.github.io/2018/07/20/yarn/"/>
+  <link rel="canonical" href="https://beiliergo.github.io/2018/07/20/yarn/"/>
 
 
 <!-- 网页加载条 -->
 <script src="/js/src/pace.min.js"></script>
-  <title> Yarn安装与使用详细介绍 | Never_yu's Blog </title>
+  <title> Yarn安装与使用详细介绍 | Beilier's Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -155,11 +155,11 @@
   <div class="custom-logo-site-title">
     <a href="/"  class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <span class="site-title">Never_yu's Blog</span>
+      <span class="site-title">Beilier's Blog</span>
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
-  <p class="site-subtitle">认真的人才有资格开玩笑</p>
+  <p class="site-subtitle">不断失败与尝试</p>
 </div>
 
 <div class="site-nav-toggle">
@@ -605,7 +605,7 @@ for (var L = 0; L < C.length; L++) {
 <h1 id="Yarn-安装"><a href="#Yarn-安装" class="headerlink" title="Yarn 安装"></a>Yarn 安装</h1><h2 id="windows"><a href="#windows" class="headerlink" title="windows"></a>windows</h2><p>在 Yarn 中文网可以找到 window 下的三种安装方法：</p>
 <p><img src="https://img-blog.csdn.net/20180824120236673?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NzZG5feXVkb25n/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="yarn-install"></p>
 <p>不过我觉得这三种方法都不好用，快速好用的安装方法应该还是使用 npm 来安装：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g yarn</span><br></pre></td></tr></table></figure></p>
-<p>关于为什么使用 <code>-g</code>，以及 <code>-g</code> 会带来哪来影响，这个可以看我的这篇文章：<a href="https://neveryu.github.io/2017/04/10/npm/">npm详细介绍</a>，里面详细介绍了为什么要使用 <code>-g</code>，以及 <code>-g</code> 的作用。</p>
+<p>关于为什么使用 <code>-g</code>，以及 <code>-g</code> 会带来哪来影响，这个可以看我的这篇文章：<a href="https://neveryu.github.io/2017/04/10/npm/" target="_blank" rel="external">npm详细介绍</a>，里面详细介绍了为什么要使用 <code>-g</code>，以及 <code>-g</code> 的作用。</p>
 <h2 id="mac"><a href="#mac" class="headerlink" title="mac"></a>mac</h2><h3 id="方式一"><a href="#方式一" class="headerlink" title="方式一"></a>方式一</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g yarn</span><br></pre></td></tr></table></figure>
 <p>如果有报： <code>Please try running this command again as root/Administrator.</code>，可能就是权限不足，因此你需要切换到最高权限去执行命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo -s</span><br><span class="line">npm install yarn -g</span><br></pre></td></tr></table></figure></p>
 <h3 id="方式二"><a href="#方式二" class="headerlink" title="方式二"></a>方式二</h3><p>使用另一种初始化脚本的方法，可能就会比较简单一些：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -o- -L https://yarnpkg.com/install.sh | bash</span><br></pre></td></tr></table></figure></p>
@@ -660,7 +660,7 @@ for (var L = 0; L < C.length; L++) {
       
         
 <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
-    <img id="wechat_subscriber_qcode" src="/images/blog-mobile.png" alt="Never_yu wechat" style="width: 200px; max-width: 100%;"/>
+    <img id="wechat_subscriber_qcode" src="/images/blog-mobile.png" alt="Beilier wechat" style="width: 200px; max-width: 100%;"/>
     <div>扫一扫，用手机访问本站</div>
 </div>
 
@@ -686,13 +686,13 @@ for (var L = 0; L < C.length; L++) {
     <div id="QR" style="display: none;">
       
         <div id="wechat" style="display: inline-block">
-          <img id="wechat_qr" src="/reward/reward_wechat.png" alt="Never_yu WeChat Pay"/>
+          <img id="wechat_qr" src="/reward/reward_wechat.png" alt="Beilier WeChat Pay"/>
           <p>微信打赏</p>
         </div>
       
       
         <div id="alipay" style="display: inline-block">
-          <img id="alipay_qr" src="/reward/reward_alipay.png" alt="Never_yu Alipay"/>
+          <img id="alipay_qr" src="/reward/reward_alipay.png" alt="Beilier Alipay"/>
           <p>支付宝打赏</p>
         </div>
       
@@ -805,8 +805,8 @@ for (var L = 0; L < C.length; L++) {
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/avatar/avatar.png"
-               alt="Never_yu" />
-          <p class="site-author-name" itemprop="name">Never_yu</p>
+               alt="Beilier" />
+          <p class="site-author-name" itemprop="name">Beilier</p>
           <p class="site-description motion-element" itemprop="description">Stay Hungry,Stay Foolish</p>
         </div>
         <nav class="site-state motion-element">
@@ -968,7 +968,7 @@ for (var L = 0; L < C.length; L++) {
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Never_yu</span>
+  <span class="author" itemprop="copyrightHolder">Beilier</span>
 </div>
 
 <div class="powered-by">

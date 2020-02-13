@@ -5,7 +5,7 @@
     
     <entry>
       <title><![CDATA[基于Vue、ElementUI的换肤解决方案]]></title>
-      <url>https://neveryu.github.io/2019/07/01/vue-element-change-theme/</url>
+      <url>https://beiliergo.github.io/2019/07/01/vue-element-change-theme/</url>
       <content type="html"><![CDATA[<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>换肤这个功能，不能算是很常见，但是也是有需求的，所以这里提供几种前端的换肤解决方案，供大家参考。</p>
 <p>本文将介绍几种基于Vue、Element-UI的换肤实现方案，力争通俗易懂，易上手，希望大家喜欢~</p>
 <a id="more"></a>
@@ -62,7 +62,7 @@
 <p>第一次换颜色的时候，需要创建一个 <code>style</code> 标签，添加到 <code>body</code> 中，后面的换颜色，就不用了。</p>
 <p>OK啦，看下效果：</p>
 <p><img src="https://img-blog.csdnimg.cn/20190904185728363.gif" alt="在这里插入图片描述"></p>
-<p id="div-border-left-blue">【在线演示：<a href="https://neveryu.github.io/vue-cms/index.html">vue-cms</a>】<br>【源代码：<a href="https://github.com/Neveryu/vue-cms/blob/master/src/views/theme/index.vue" target="_blank" rel="external">github.com/Neveryu/vue-cms</a>】<br></p>
+<p id="div-border-left-blue">【在线演示：<a href="https://neveryu.github.io/vue-cms/index.html" target="_blank" rel="external">vue-cms</a>】<br>【源代码：<a href="https://github.com/Neveryu/vue-cms/blob/master/src/views/theme/index.vue" target="_blank" rel="external">github.com/Neveryu/vue-cms</a>】<br></p>
 
 ]]></content>
       
@@ -85,7 +85,7 @@
     
     <entry>
       <title><![CDATA[【转】如何优雅处理前端异常]]></title>
-      <url>https://neveryu.github.io/2019/05/01/js-exception-handing/</url>
+      <url>https://beiliergo.github.io/2019/05/01/js-exception-handing/</url>
       <content type="html"><![CDATA[<p>前端一直是距离用户最近的一层，随着产品的日益完善，我们会更加注重用户体验，而前端异常却如鲠在喉，甚是烦人。</p>
 <h1 id="一、为什么要处理异常？"><a href="#一、为什么要处理异常？" class="headerlink" title="一、为什么要处理异常？"></a>一、为什么要处理异常？</h1><p id="div-border-left-green">异常是不可控的，会影响最终的呈现结果，但是我们有充分的理由去做这样的事情。</p>
 
@@ -231,8 +231,8 @@
     
     <entry>
       <title><![CDATA[手把手教你 Vue 服务端渲染]]></title>
-      <url>https://neveryu.github.io/2019/03/31/vue-ssr/</url>
-      <content type="html"><![CDATA[<h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1><p>在写这篇文章之前，我有写一篇 <a href="https://neveryu.github.io/2018/06/18/vue-prerender/">Vue 预渲染的教程</a> 以及 <a href="https://neveryu.github.io/prerender-website/index.html">在线示例</a>，有需要的可以看一下~</p>
+      <url>https://beiliergo.github.io/2019/03/31/vue-ssr/</url>
+      <content type="html"><![CDATA[<h1 id="序"><a href="#序" class="headerlink" title="序"></a>序</h1><p>在写这篇文章之前，我有写一篇 <a href="https://neveryu.github.io/2018/06/18/vue-prerender/" target="_blank" rel="external">Vue 预渲染的教程</a> 以及 <a href="https://neveryu.github.io/prerender-website/index.html" target="_blank" rel="external">在线示例</a>，有需要的可以看一下~</p>
 <hr>
 <font color="green">【下面开始 Vue 服务端渲染】</font>
 
@@ -284,11 +284,11 @@
     
     <entry>
       <title><![CDATA[使用 Travis CI 自动更新 GitHub Pages]]></title>
-      <url>https://neveryu.github.io/2019/02/05/travis-ci/</url>
+      <url>https://beiliergo.github.io/2019/02/05/travis-ci/</url>
       <content type="html"><![CDATA[<p><a href="https://travis-ci.org/" target="_blank" rel="external">Travis CI</a> 提供的是持续集成服务（Continuous Integration，简称 CI）。我们在软件开发过程中，有构建、测试、部署这些必不可少的步骤，而这些会花掉我们很多的时间。为了提高软件开发的效率，现在涌现了很多自动化工具。<a href="https://travis-ci.org/" target="_blank" rel="external">Travis CI</a> 是目前<a href="https://github.blog/2017-11-07-github-welcomes-all-ci-tools/" target="_blank" rel="external">市场份额</a>最大的一个，而且有很详细的文档以及可以和 Github 很好的对接。</p>
 <a id="more"></a>
 <p>Travis CI 还是很强大的，用好这个工具不仅可以提高效率，还能使开发流程更可靠和专业化。</p>
-<p>就我写的 <a href="https://neveryu.github.io/web-bookmarks/">web-bookmarks</a> 这个项目来说的话，每次更改完都要手动部署到 GitHub Pages。</p>
+<p>就我写的 <a href="https://neveryu.github.io/web-bookmarks/" target="_blank" rel="external">web-bookmarks</a> 这个项目来说的话，每次更改完都要手动部署到 GitHub Pages。</p>
 <p>从最开始的手动构建部署：手动敲构建命令，然后手动推到 GitHub。(<em>重复的次数多了就显得很麻烦，出错的几率也会变大。</em>)</p>
 <p>后来写了一个构建部署的脚本：每次开发完，再手动执行脚本，完成构建部署。</p>
 <p>再到现在的使用 CI 自动更新：开发完，我只用将源码 push 到 GitHub 做版本管理，就 ok 了；Travis 监测到代码有变化，然后就会自动执行我们设定好的任务。【优秀～】</p>
@@ -361,7 +361,7 @@
     
     <entry>
       <title><![CDATA[Hexo-NexT搭建个人博客（六）]]></title>
-      <url>https://neveryu.github.io/2018/10/15/hexo-next-six/</url>
+      <url>https://beiliergo.github.io/2018/10/15/hexo-next-six/</url>
       <content type="html"><![CDATA[<p>在 hexo 中，我们如何使用自己自定义的 html 页面呢？</p>
 <p>我们知道，在 hexo 中，我们使用的是 markdown 格式的文件，渲染出来的页面是有主题样式的。如果我们不希望我们的页面使用主题样式。那么需要在文件头部加一个 <code>layout: false</code> 的配置。</p>
 <p><strong>使用 md 文件写文章时增加配置不使用 layout </strong></p>
@@ -396,7 +396,7 @@
     
     <entry>
       <title><![CDATA[Yarn安装与使用详细介绍]]></title>
-      <url>https://neveryu.github.io/2018/07/20/yarn/</url>
+      <url>https://beiliergo.github.io/2018/07/20/yarn/</url>
       <content type="html"><![CDATA[<h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p>在 Node 生态系统中，依赖通常安装在项目的 <code>node_modules</code> 文件夹中。然而，这个文件的结构和实际依赖树可能有所区别，因为重复的依赖可以合并到一起。<code>npm</code> 客户端把依赖安装到 <code>node_modules</code> 目录的过程具有不确定性。这意味着当依赖的安装顺序不同时，<code>node_modules</code> 目录的结构可能会发生变化。这种差异可能会导致类似<font color="red">“我的电脑上可以运行，别的电脑上不行”</font>的情况，并且通常需要花费大量时间定为与解决。</p>
 <blockquote>
 <p>有时候就会遇到这种情况，完整可运行的项目上传到 git 上，别人 pull 下来以后，npm install 会报错。</p>
@@ -426,7 +426,7 @@
 <h1 id="Yarn-安装"><a href="#Yarn-安装" class="headerlink" title="Yarn 安装"></a>Yarn 安装</h1><h2 id="windows"><a href="#windows" class="headerlink" title="windows"></a>windows</h2><p>在 Yarn 中文网可以找到 window 下的三种安装方法：</p>
 <p><img src="https://img-blog.csdn.net/20180824120236673?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NzZG5feXVkb25n/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="yarn-install"></p>
 <p>不过我觉得这三种方法都不好用，快速好用的安装方法应该还是使用 npm 来安装：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g yarn</span><br></pre></td></tr></table></figure></p>
-<p>关于为什么使用 <code>-g</code>，以及 <code>-g</code> 会带来哪来影响，这个可以看我的这篇文章：<a href="https://neveryu.github.io/2017/04/10/npm/">npm详细介绍</a>，里面详细介绍了为什么要使用 <code>-g</code>，以及 <code>-g</code> 的作用。</p>
+<p>关于为什么使用 <code>-g</code>，以及 <code>-g</code> 会带来哪来影响，这个可以看我的这篇文章：<a href="https://neveryu.github.io/2017/04/10/npm/" target="_blank" rel="external">npm详细介绍</a>，里面详细介绍了为什么要使用 <code>-g</code>，以及 <code>-g</code> 的作用。</p>
 <h2 id="mac"><a href="#mac" class="headerlink" title="mac"></a>mac</h2><h3 id="方式一"><a href="#方式一" class="headerlink" title="方式一"></a>方式一</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g yarn</span><br></pre></td></tr></table></figure>
 <p>如果有报： <code>Please try running this command again as root/Administrator.</code>，可能就是权限不足，因此你需要切换到最高权限去执行命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo -s</span><br><span class="line">npm install yarn -g</span><br></pre></td></tr></table></figure></p>
 <h3 id="方式二"><a href="#方式二" class="headerlink" title="方式二"></a>方式二</h3><p>使用另一种初始化脚本的方法，可能就会比较简单一些：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -o- -L https://yarnpkg.com/install.sh | bash</span><br></pre></td></tr></table></figure></p>
@@ -492,7 +492,7 @@
     
     <entry>
       <title><![CDATA[Vue 服务端渲染 or 预渲染]]></title>
-      <url>https://neveryu.github.io/2018/06/18/vue-prerender/</url>
+      <url>https://beiliergo.github.io/2018/06/18/vue-prerender/</url>
       <content type="html"><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>关于 Vue 的 SPA 说的已经太多太多了，它为我们带来了极速的开发体验，极强的开发效率。可能唯一有些许不足的就是，当我们对 SEO 很在乎的时候，我们如何去处理 SEO 的需求。</p>
 <p>关于 SEO ，Vue 也有现成的解决方案： <a href="https://ssr.vuejs.org/zh/" target="_blank" rel="external">Vue 服务端渲染</a></p>
 <a id="more"></a>
@@ -501,9 +501,9 @@
 <li>更好的 SEO</li>
 <li>更快的内容到达时间</li>
 </ul>
-<h3 id="服务端渲染-or-预渲染"><a href="#服务端渲染-or-预渲染" class="headerlink" title="服务端渲染 or 预渲染"></a>服务端渲染 or 预渲染</h3><p>就像官网所说的，如果你调研服务器端渲染(SSR)只是用来改善少数营销页面（例如 /, /about, /contact 等）的 SEO，那么你可能需要<a href="https://github.com/chrisvfritz/prerender-spa-plugin" target="_blank" rel="external">预渲染</a>，一个典型的预渲染使用场景可能类似<a href="https://neveryu.github.io/vue-tour/">这个网站</a>。</p>
-<h3 id="区别"><a href="#区别" class="headerlink" title="区别"></a>区别</h3><p><strong>服务端渲染</strong>和<strong>预渲染</strong>的使用场景还是有较明显的区别的。预渲染的使用场景更多是我们所说的静态页面的形式，比如说<a href="https://neveryu.github.io/vue-tour/">这个网站</a>。服务端渲染适用于大型的、页面数据处理较多且较为复杂的、与服务端有数据交互的功能型网站，一个明显的使用场景就是电商网站。</p>
-<h2 id="如何使用预渲染"><a href="#如何使用预渲染" class="headerlink" title="如何使用预渲染"></a>如何使用预渲染</h2><p><strong>预渲染</strong>的核心是使用 <a href="https://github.com/chrisvfritz/prerender-spa-plugin" target="_blank" rel="external">prerender-spa-plugin</a>，如何使用它呢？我们还是以<a href="https://neveryu.github.io/vue-tour/">这个网站</a>的<a href="https://github.com/Neveryu/prerender-website" target="_blank" rel="external">源代码</a>中的 webpack 配置为例：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">new</span> PrerenderSPAPlugin(&#123;</span><br><span class="line">  staticDir: path.join(__dirname, <span class="string">'dist'</span>),</span><br><span class="line">  routes: [ <span class="string">'/'</span>, <span class="string">'/home'</span>, <span class="string">'/infomation'</span>, <span class="string">'/ticket'</span>, <span class="string">'/scenery'</span>, <span class="string">'/about'</span> ],</span><br><span class="line">  renderer: <span class="keyword">new</span> Renderer(&#123;</span><br><span class="line">    headless: <span class="literal">false</span>,</span><br><span class="line">    renderAfterDocumentEvent: <span class="string">'render-event'</span></span><br><span class="line">  &#125;)</span><br><span class="line">&#125;),</span><br></pre></td></tr></table></figure></p>
+<h3 id="服务端渲染-or-预渲染"><a href="#服务端渲染-or-预渲染" class="headerlink" title="服务端渲染 or 预渲染"></a>服务端渲染 or 预渲染</h3><p>就像官网所说的，如果你调研服务器端渲染(SSR)只是用来改善少数营销页面（例如 /, /about, /contact 等）的 SEO，那么你可能需要<a href="https://github.com/chrisvfritz/prerender-spa-plugin" target="_blank" rel="external">预渲染</a>，一个典型的预渲染使用场景可能类似<a href="https://neveryu.github.io/vue-tour/" target="_blank" rel="external">这个网站</a>。</p>
+<h3 id="区别"><a href="#区别" class="headerlink" title="区别"></a>区别</h3><p><strong>服务端渲染</strong>和<strong>预渲染</strong>的使用场景还是有较明显的区别的。预渲染的使用场景更多是我们所说的静态页面的形式，比如说<a href="https://neveryu.github.io/vue-tour/" target="_blank" rel="external">这个网站</a>。服务端渲染适用于大型的、页面数据处理较多且较为复杂的、与服务端有数据交互的功能型网站，一个明显的使用场景就是电商网站。</p>
+<h2 id="如何使用预渲染"><a href="#如何使用预渲染" class="headerlink" title="如何使用预渲染"></a>如何使用预渲染</h2><p><strong>预渲染</strong>的核心是使用 <a href="https://github.com/chrisvfritz/prerender-spa-plugin" target="_blank" rel="external">prerender-spa-plugin</a>，如何使用它呢？我们还是以<a href="https://neveryu.github.io/vue-tour/" target="_blank" rel="external">这个网站</a>的<a href="https://github.com/Neveryu/prerender-website" target="_blank" rel="external">源代码</a>中的 webpack 配置为例：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">new</span> PrerenderSPAPlugin(&#123;</span><br><span class="line">  staticDir: path.join(__dirname, <span class="string">'dist'</span>),</span><br><span class="line">  routes: [ <span class="string">'/'</span>, <span class="string">'/home'</span>, <span class="string">'/infomation'</span>, <span class="string">'/ticket'</span>, <span class="string">'/scenery'</span>, <span class="string">'/about'</span> ],</span><br><span class="line">  renderer: <span class="keyword">new</span> Renderer(&#123;</span><br><span class="line">    headless: <span class="literal">false</span>,</span><br><span class="line">    renderAfterDocumentEvent: <span class="string">'render-event'</span></span><br><span class="line">  &#125;)</span><br><span class="line">&#125;),</span><br></pre></td></tr></table></figure></p>
 <p>我们需要简单的配置一下，项目所有的路由，最终生成后有几个页面，都是以这个配置为依据，而不是你在 vue-router 中配置的路由。</p>
 <p>最基础也最核心的配置项也就这几行代码，当然，如果你有更多的需求配置项，你可以去 github 上查看文档，文档中也有很详细的介绍。 </p>
 <h2 id="如何搭建一个预渲染开发环境"><a href="#如何搭建一个预渲染开发环境" class="headerlink" title="如何搭建一个预渲染开发环境"></a>如何搭建一个预渲染开发环境</h2><p>如果你也想要使用<strong>预渲染</strong>来开发你的网站的话，最简单的方法就是克隆<a href="https://github.com/Neveryu/prerender-website" target="_blank" rel="external">这个项目</a>，然后简单删减以后进行二次开发，整个的开发流程和 Vue 是一模一样的。</p>
@@ -511,7 +511,7 @@
 <p>2、我的<a href="https://github.com/Neveryu/prerender-website" target="_blank" rel="external">这个项目</a>使用的是 stylus 来作为 css 预编译语言，如果你想使用其他的 css 预编译语言的话，需要额外安装一些插件以及做一些简单配置。当然了，默认的 css 肯定是支持的。</p>
 <p>3、在写这个项目的过程中，也有做一些简单的知识点记录。<a href="https://github.com/Neveryu/prerender-website/blob/master/project-note.md" target="_blank" rel="external">vue-prerender 笔记</a></p>
 <p>4、最后项目打包发布到生产环境，使用 <code>npm run build</code> 一键操作即可。如果你想要部署到子目录下的话，那么，你可能需要做一些简单的修改，具体在 <a href="https://github.com/Neveryu/prerender-website/blob/master/project-note.md" target="_blank" rel="external">vue-prerender 笔记</a> 有提到。</p>
-<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p><a href="https://neveryu.github.io/vue-tour/">项目预览</a><br><a href="https://github.com/Neveryu/prerender-website" target="_blank" rel="external">项目github地址</a></p>
+<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p><a href="https://neveryu.github.io/vue-tour/" target="_blank" rel="external">项目预览</a><br><a href="https://github.com/Neveryu/prerender-website" target="_blank" rel="external">项目github地址</a></p>
 ]]></content>
       
         <categories>
@@ -531,7 +531,7 @@
     
     <entry>
       <title><![CDATA[关于 JavaScript 中 this 的详细总结]]></title>
-      <url>https://neveryu.github.io/2018/06/01/js-this/</url>
+      <url>https://beiliergo.github.io/2018/06/01/js-this/</url>
       <content type="html"><![CDATA[<p id="div-border-top-blue">在 JavaScript 中，函数中的 this 指向，很多同学总是理不清楚【这必然会带来一些问题】。确实，JavaScript 中，函数的 this 指向比较复杂多变。它和你调用的方式有关系，和 <strong>严格模式</strong> 或者 <strong>非严格模式</strong> 有关系，和你是否使用了箭头函数有关系，和你在使用函数时是否传入了 this 有关系，和你是否主动修改了调用对象有关系。</p>
 
 <ul>
@@ -603,7 +603,7 @@
     
     <entry>
       <title><![CDATA[vue2.x 做一个音乐app]]></title>
-      <url>https://neveryu.github.io/2018/05/01/vue-music/</url>
+      <url>https://beiliergo.github.io/2018/05/01/vue-music/</url>
       <content type="html"><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p id="div-border-top-green">本项目是基于 vue2.4.1 最新的实战项目，vue-cli2.9.3 + vue2.4.1 + axios + vue-router3.0.1 + es6 + vux3.0.1 + webpack + better-scroll + 线上真实接口的一个移动端音乐 app。</p>
 
 <a id="more"></a>
@@ -632,8 +632,8 @@
 <li>vue-router，专为 Vue.js 应用程序开发的路由工具</li>
 </ul>
 <p>除此之外，vue-cli 已经使用 node 配置了一套本地服务器和安装命令等，本地运行和打包只需要一个命令就可以搞定，非常的方便。</p>
-<h2 id="为什么写这个项目"><a href="#为什么写这个项目" class="headerlink" title="为什么写这个项目"></a>为什么写这个项目</h2><p>之前的 <a href="https://neveryu.github.io/2017/11/11/vue-sell/">vue-sell</a>，是一个非常好的 vue 的项目教程了，学了 vue 以后，跟着做一遍 vue-sell，应该对 vue 的基本操作都能非常熟练的掌握了。<br>但是如何结合 vuex 和 vue-router，以及其他技术，做一个大型的项目，很多同学还是苦于没有经验和项目实例，所以就有了这个 vue-music。</p>
-<p><a href="https://neveryu.github.io/vue-music/">vue-music</a> 里面用到了 vue 全家桶，还有 better-scroll，jsonp 等其他工具，用的也是线上真实的音乐接口数据，而且项目里封装了很多完美的组件，对个人技术的学习和提升有很大的帮助，项目级别上也达到了中大型级别。<br>非常适合 vue 的进阶学习。</p>
+<h2 id="为什么写这个项目"><a href="#为什么写这个项目" class="headerlink" title="为什么写这个项目"></a>为什么写这个项目</h2><p>之前的 <a href="https://neveryu.github.io/2017/11/11/vue-sell/" target="_blank" rel="external">vue-sell</a>，是一个非常好的 vue 的项目教程了，学了 vue 以后，跟着做一遍 vue-sell，应该对 vue 的基本操作都能非常熟练的掌握了。<br>但是如何结合 vuex 和 vue-router，以及其他技术，做一个大型的项目，很多同学还是苦于没有经验和项目实例，所以就有了这个 vue-music。</p>
+<p><a href="https://neveryu.github.io/vue-music/" target="_blank" rel="external">vue-music</a> 里面用到了 vue 全家桶，还有 better-scroll，jsonp 等其他工具，用的也是线上真实的音乐接口数据，而且项目里封装了很多完美的组件，对个人技术的学习和提升有很大的帮助，项目级别上也达到了中大型级别。<br>非常适合 vue 的进阶学习。</p>
 <h2 id="获取教程"><a href="#获取教程" class="headerlink" title="获取教程"></a>获取教程</h2><p>这个项目我从头到尾写了一遍，解决了项目中遇到的所有问题，由于有一些包或者模块升级的原因，会有一些小的问题，我都已经解决过了。想获取教程或者有疑问的，可以加这个群。</p>
 <font color="#f69" size="5">建了一个qq群，可以点击这个logo<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=32da7a18744756b0d8ffdd05b84999afecb5265dbad0fb119033e122abe803f3"><img border="0" width="150" src="https://neveryu.github.io/vue-tour/logo1.png" alt="Vue学习交流" title="Vue学习交流" style="vertical-align: middle"></a>，或者手动search群号：<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=32da7a18744756b0d8ffdd05b84999afecb5265dbad0fb119033e122abe803f3">685486827</a></font>]]></content>
       
@@ -654,7 +654,7 @@
     
     <entry>
       <title><![CDATA[vue2.x 做一个外卖app]]></title>
-      <url>https://neveryu.github.io/2017/11/11/vue-sell/</url>
+      <url>https://beiliergo.github.io/2017/11/11/vue-sell/</url>
       <content type="html"><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p id="div-border-top-green">本项目是基于 vue2.4 最新的实战项目，vue-cli2.8 + vue2.4 + vue-resource + vue-router2.7 + es6 + mock + webpack 的一个移动端外卖 app。</p>
 
 <p><img src="/images/vue-sell-1.png" alt=""></p>
@@ -695,7 +695,7 @@
     
     <entry>
       <title><![CDATA[Hexo-NexT搭建个人博客（五）]]></title>
-      <url>https://neveryu.github.io/2017/07/15/hexo-next-five/</url>
+      <url>https://beiliergo.github.io/2017/07/15/hexo-next-five/</url>
       <content type="html"><![CDATA[<p>在这之前，我写过四篇关于 Hexo + NexT 构建博客的文章。=》【<a href="/categories/Hexo/">传送门</a>】</p>
 <p>本文将会介绍一些自定义的功能。相较于之前主要是修改配置文件中的内容，现在更多的是动手改源码来实现功能，而且还能帮你搞懂一些 Hexo NexT 的源码。如果你能弄懂源码的一些流程和逻辑，那么，你将能更好的来实现自己的一些想法。</p>
 <h1 id="文章封面"><a href="#文章封面" class="headerlink" title="文章封面"></a>文章封面</h1><p>文章封面的意思就是：在博客首页的时候会显示文章的封面图片，进入这篇文章的详细页面后，将不显示这张图片。</p>
@@ -751,7 +751,7 @@
     
     <entry>
       <title><![CDATA[CSS 各种Hack手段]]></title>
-      <url>https://neveryu.github.io/2017/06/25/css-hack/</url>
+      <url>https://beiliergo.github.io/2017/06/25/css-hack/</url>
       <content type="html"><![CDATA[<!-- <img src="/images/css-hack-1.png" alt="css-hack"> -->
 <a id="more"></a>
 <p>随着浏览器的发展，css hack 技术的使用应该越来越少了，但是在某些关键时刻以及综合的WEB应用或者老项目中，可能还需要使用 css hack 技术来解决一些问题。</p>
@@ -795,7 +795,7 @@
     
     <entry>
       <title><![CDATA[使用 Service worker 实现加速/离线访问博客]]></title>
-      <url>https://neveryu.github.io/2017/06/08/service-worker/</url>
+      <url>https://beiliergo.github.io/2017/06/08/service-worker/</url>
       <content type="html"><![CDATA[<p>有一个困扰 web 用户多年的难题——丢失网络连接。即使是世界上最好的 web app，如果下载不了它，也是非常糟糕的体验。如今虽然已经有很多种技术去尝试着解决这一问题。而随着<strong>离线页面</strong>的出现，一些问题已经得到了解决。有一个叫做 APP Cache 的 API 可以提供离线体验，但它的问题比较多。最重要的问题是，仍然没有一个好的统筹机制对资源缓存和自定义的网络请求进行控制。</p>
 <h1 id="Service-worker"><a href="#Service-worker" class="headerlink" title="Service worker"></a>Service worker</h1><p>于是 HTML5 提出了 Service Worker，Service worker 提供了很多新的能力，使得 web app 拥有与 nativeapp 相同的离线体验、消息推送体验。</p>
 <a id="more"></a>
@@ -808,7 +808,7 @@
 <p>以上代码会先检测 Service worker 在浏览器中是否可用，可用的话一个 Service worker（/service-worker.js）将被注册，如果这个 Service worker 已经注册过了，浏览器这会忽略以上代码。<br><code>{scope: &#39;/&#39;}</code> 表示 Service worker 作用的范围。<br>需要说明的是 service-worker.js 文件被放在这个域的根目录下，这意味着 service worker 是跟网站同源的。换句话说，这个 service worker 将会获取到这个域下的所有 fetch 事件。<br>如果 service worker 文件注册到 /example/service-worker.js ，那么 service worker 只能收到 /example/ 路径下的 fetch 事件（比如： /example/page1/, /example/page2/）。<br>如果 service worker 文件注册到根目录下 /service-worker.js ，同时 <code>{scope: &#39;/example&#39;}</code> ，那么 service worker 也只能收到 /example/ 路径下的 fetch 事件。</p>
 <p>service-worker.js 文件，我建议是放在网站的跟目录下，scope 不作修改，这样 service worker 拥有最大的使用范围。</p>
 <h2 id="安装-Service-worker"><a href="#安装-Service-worker" class="headerlink" title="安装 Service worker"></a>安装 Service worker</h2><p><img src="/images/service-worker-2.png" alt=""></p>
-<p><a href="https://neveryu.github.io/service-worker.js">我的 service-worker.js</a><br>关于这个 service-worker.js 怎么写，具体可以查看 API ，<a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Service_Worker_API" target="_blank" rel="external">MDN Service Worker API</a>。</p>
+<p><a href="https://neveryu.github.io/service-worker.js" target="_blank" rel="external">我的 service-worker.js</a><br>关于这个 service-worker.js 怎么写，具体可以查看 API ，<a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Service_Worker_API" target="_blank" rel="external">MDN Service Worker API</a>。</p>
 <p id="div-border-left-red">注意：将 service-worker.js 放到域的根目录下哦，这样 Service worker 才能拥有最大的使用范围。</p>
 
 <p>现在你可以到 chrome://inspect/#service-workers 这里，检查 service worker 是否对你的网站启用了。<br>或者在 chrome://serviceworker-internals/ 中管理你的 Service worker 。<br>或者在浏览器的开发者工具中也可以详细的查看 service worker 的缓存。<br><img src="/images/service-worker-3.png" alt=""></p>
@@ -839,7 +839,7 @@
     
     <entry>
       <title><![CDATA[npm 的一个小细节]]></title>
-      <url>https://neveryu.github.io/2017/05/20/npm-two/</url>
+      <url>https://beiliergo.github.io/2017/05/20/npm-two/</url>
       <content type="html"><![CDATA[<p>在使用 electron 构建桌面应用的时候，在 package.json 里面的 scripts 字段是这样的<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&quot;scripts&quot;: &#123;</span><br><span class="line">  &quot;start&quot;: &quot;electron .&quot;</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure></p>
 <p>我们可以执行 npm start ，那么它就会执行 <code>electron .</code> 这个命令。<br>那么如果我们直接执行 <code>electron .</code><br>由于我们没有将 electron 加入到全局，所以不行。<br>那么为什么 npm start 可以执行呢？</p>
 <a id="more"></a>
@@ -848,7 +848,7 @@
 <p>这就解释了，没有安装全局的 electron ，直接运行 <code>electron .</code> 是不行的，但是使用 <code>npm start</code> 来运行 <code>electron .</code> 可以。</p>
 <p><strong>下面介绍一个使用 npm 的实践：</strong><br>很多朋友使用 hexo 来构建博客；hexo 是基于 Node.js 产物，用它发表博文，很是方便；你只需 hexo clean, hexo g, hexo d三个命令即可；而且每一个命令必须等待前一个命令运行完成。文章数据一多，一套命令打下来，也得 20s+；如果略懂 npm，在 package.js 中加入点命名，例如像这样；<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"scripts"</span>: &#123;</span><br><span class="line">  <span class="string">"start"</span>: <span class="string">"sudo hexo clean &amp;&amp; sudo hexo g &amp;&amp; sudo gulp &amp;&amp; sudo hexo d"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <p>那么 只需运行 npm start 就好，可将时间消耗缩短至 2s节省时间虽说不多，却也是数量级的提升，而且代价只是那么小，并一劳永逸。所以有必要对此。</p>
-<p>关于 npm 的详细学习，可以查看：<a href="https://neveryu.github.io/2017/04/10/npm/">npm 全面介绍</a></p>
+<p>关于 npm 的详细学习，可以查看：<a href="https://neveryu.github.io/2017/04/10/npm/" target="_blank" rel="external">npm 全面介绍</a></p>
 ]]></content>
       
         <categories>
@@ -868,7 +868,7 @@
     
     <entry>
       <title><![CDATA[gulp 详解与使用]]></title>
-      <url>https://neveryu.github.io/2017/05/01/gulp/</url>
+      <url>https://beiliergo.github.io/2017/05/01/gulp/</url>
       <content type="html"><![CDATA[<h1 id="什么是-gulp"><a href="#什么是-gulp" class="headerlink" title="什么是 gulp"></a>什么是 gulp</h1><p><a href="http://gulpjs.com/" target="_blank" rel="external">gulp</a> 是一个前端构建工具，它能通过自动执行常见任务，比如编译预处理 CSS ，压缩 JavaScript 和刷新浏览器，来改进网站开发的过程，从而使开发更加快速高效。</p>
 <h1 id="为什么要用-gulp"><a href="#为什么要用-gulp" class="headerlink" title="为什么要用 gulp"></a>为什么要用 gulp</h1><p>与 grunt 相比，gulp 无需写一大堆繁杂的配置参数，<a href="https://github.com/gulpjs/gulp/blob/master/docs/API.md" target="_blank" rel="external">API</a>（<a href="http://www.gulpjs.com.cn/docs/api/" target="_blank" rel="external">中文 API</a>） 也非常简单，学习起来很容易，而且 gulp 使用的是 nodejs 中 <a href="https://nodejs.org/api/stream.html" target="_blank" rel="external">stream</a> 来读取和操作数据，其速度更快。<br>gulp 有庞大的生态圈，且每天都在发展。依靠成千上万可供选择的插件，你可以利用 gulp 自动完成几乎任何事。</p>
 <h1 id="如何使用-gulp"><a href="#如何使用-gulp" class="headerlink" title="如何使用 gulp"></a>如何使用 gulp</h1><h2 id="Installing-Gulp"><a href="#Installing-Gulp" class="headerlink" title="Installing Gulp"></a>Installing Gulp</h2><p>新版的 gulp 命令行工具已经改名为 gulp-cli 。<br>如果你之前安装了全局的 gulp 。在使用新的 gulp-cli 之前，执行命令<br> <code>npm rm --global gulp</code> ，将之前的全局 gulp 卸掉。</p>
@@ -982,7 +982,7 @@
     
     <entry>
       <title><![CDATA[npm 全面介绍]]></title>
-      <url>https://neveryu.github.io/2017/04/10/npm/</url>
+      <url>https://beiliergo.github.io/2017/04/10/npm/</url>
       <content type="html"><![CDATA[<!-- <img src="http://i1.piimg.com/588926/30e7b49044d5cfc4.png" alt="summary-img-src-npm"> -->
 <a id="more"></a>
 <h1 id="什么是-NPM"><a href="#什么是-NPM" class="headerlink" title="什么是 NPM"></a>什么是 NPM</h1><p>npm 之于 Node.js ，就像 pip 之于 Python， gem 之于 Ruby， pear 之于 PHP 。</p>
@@ -1094,8 +1094,8 @@
     
     <entry>
       <title><![CDATA[AMD，CMD 规范详解]]></title>
-      <url>https://neveryu.github.io/2017/03/20/amd-cmd/</url>
-      <content type="html"><![CDATA[<p>当我们了解了 <a href="https://neveryu.github.io/2017/03/07/commonjs/">CommonJS</a> 以后，<code>CommonJS</code> 规范加载模块是同步的，也就是说，只有加载完成，才能执行后面的操作。<br>由于 <code>Node.js</code> 主要用于服务器编程，模块文件一般都已经存在于本地硬盘，所以加载起来比较快，不用考虑非同步加载的方式，所以 <code>CommonJS</code> 规范比较适用。<br>但是，如果是浏览器环境，要从服务器端加载模块，这时就必须采用非同步模式。为什么呢？</p>
+      <url>https://beiliergo.github.io/2017/03/20/amd-cmd/</url>
+      <content type="html"><![CDATA[<p>当我们了解了 <a href="https://neveryu.github.io/2017/03/07/commonjs/" target="_blank" rel="external">CommonJS</a> 以后，<code>CommonJS</code> 规范加载模块是同步的，也就是说，只有加载完成，才能执行后面的操作。<br>由于 <code>Node.js</code> 主要用于服务器编程，模块文件一般都已经存在于本地硬盘，所以加载起来比较快，不用考虑非同步加载的方式，所以 <code>CommonJS</code> 规范比较适用。<br>但是，如果是浏览器环境，要从服务器端加载模块，这时就必须采用非同步模式。为什么呢？</p>
 <a id="more"></a>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> math = <span class="built_in">require</span>(<span class="string">'math'</span>);</span><br><span class="line">math.add(<span class="number">2</span>, <span class="number">3</span>);</span><br></pre></td></tr></table></figure>
 <p>第二行 <code>math.add(2, 3)</code>，在第一行 <code>require(&#39;math&#39;)</code> 之后运行，因此必须等 <code>math.js</code> 加载完成。也就是说，如果加载时间很长，整个应用就会停在那里等。<br>对于浏览器，这是一个大问题，因为模块都放在服务器端。等待时间取决于网速的快慢，可能要等很长时间，浏览器处理“假死”状态。</p>
@@ -1167,7 +1167,7 @@
     
     <entry>
       <title><![CDATA[CommonJS 详细介绍]]></title>
-      <url>https://neveryu.github.io/2017/03/07/commonjs/</url>
+      <url>https://beiliergo.github.io/2017/03/07/commonjs/</url>
       <content type="html"><![CDATA[<h2 id="CommonJS-规范与实现"><a href="#CommonJS-规范与实现" class="headerlink" title="CommonJS 规范与实现"></a>CommonJS 规范与实现</h2><p>正如当年为了统一 JavaScript 语言标准，人们制定了 ECMAScript 规范一样，如今为了统一 JavaScript 在浏览器之外的实现，CommonJS 诞生了。CommonJS 试图定义一套普通应用程序使用的 API，从而填补 JavaScript 标准库过于简单的不足。CommonJS 的终极目标是制定一个像 C++ 标准库一样的规范，使得基于 CommonJS API 的应用程序可以在不同的环境下运行，就像用 C++ 编写的应用程序可以使用不同的编译器和运行时函数库一样。为了保持中立，CommonJS 不参与标准库实现，其实现交给像 Node.js 之类的项目来完成。下图是 CommonJS 的各种实现。</p>
 <a id="more"></a>
 <p><img src="http://i2.muimg.com/567571/abd3d52d96d4db7c.png" alt="ConmonJS 的实现"></p>
@@ -1228,7 +1228,7 @@
     
     <entry>
       <title><![CDATA[如何解决内存泄漏引发的血案]]></title>
-      <url>https://neveryu.github.io/2017/02/28/memory-leak/</url>
+      <url>https://beiliergo.github.io/2017/02/28/memory-leak/</url>
       <content type="html"><![CDATA[<p>之前做了一个谷歌浏览器的插件开发，它会打开一个链接，然后收集数据并上传。依次循环，但是跑的时间久了，内存就变得很高，然后浏览器就会变卡，慢慢的影响这个插件的运行，最后浏览器也会崩溃。</p>
 <h1 id="什么是内存泄漏"><a href="#什么是内存泄漏" class="headerlink" title="什么是内存泄漏"></a>什么是内存泄漏</h1><p>内存泄露是指一块被分配的内存既不能使用，又不能回收，直到浏览器进程结束。在 C++ 中，因为是手动管理内存，内存泄露是经常出现的事情。而现在流行的 C# 和 Java 等语言采用了自动垃圾回收方法管理内存，正常使用的情况下几乎不会发生内存泄露。浏览器中也是采用自动垃圾回收方法管理内存，但由于浏览器垃圾回收方法有 bug，会产生内存泄露。</p>
 <a id="more"></a>
@@ -1264,7 +1264,7 @@
     
     <entry>
       <title><![CDATA[JavaScript 内存管理 & 垃圾回收机制]]></title>
-      <url>https://neveryu.github.io/2017/02/18/js-memory-management-and-gc/</url>
+      <url>https://beiliergo.github.io/2017/02/18/js-memory-management-and-gc/</url>
       <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>低级语言，比如C，有低级的内存管理基元，像 malloc()，free()。另一方面，JavaScript 的内存基元在变量（对象，字符串等等）创建时分配，然后在他们不再被使用时“自动释放”。后者被称为垃圾回收。这个“自动”是混淆并给 JavaScript （和其他高级语言）开发者一个错觉：他们可以不用考虑内存管理。</p>
 <a id="more"></a>
 <h1 id="JavaScript-的内存分配"><a href="#JavaScript-的内存分配" class="headerlink" title="JavaScript 的内存分配"></a>JavaScript 的内存分配</h1><h2 id="变量初始化"><a href="#变量初始化" class="headerlink" title="变量初始化"></a>变量初始化</h2><p>为了不让程序员为分配费心，JavaScript 在定义变量时完成内存分配。<br>例如：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> n = <span class="number">123</span>;  <span class="comment">// 给数值变量分配内存</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 为对象及其包含变量分配内存</span></span><br><span class="line"><span class="keyword">var</span> o = &#123;</span><br><span class="line">    a: <span class="number">1</span>,</span><br><span class="line">    b: <span class="literal">null</span></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 函数表达式也能分配一个对象</span></span><br><span class="line">obj.addEventListener(<span class="string">"click"</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">  obj.style.backgroundColor = <span class="string">'blue'</span>;</span><br><span class="line">&#125;, <span class="literal">false</span>);</span><br></pre></td></tr></table></figure></p>
@@ -1311,7 +1311,7 @@
     
     <entry>
       <title><![CDATA[【转】为什么我们放弃了 Zepto]]></title>
-      <url>https://neveryu.github.io/2017/02/14/why-we-dropped-zepto/</url>
+      <url>https://beiliergo.github.io/2017/02/14/why-we-dropped-zepto/</url>
       <content type="html"><![CDATA[<!-- <img src="http://i2.muimg.com/567571/fae45a374015a1c2.png" alt="summary-img-src-zepto"> -->
 <a id="more"></a>
 <blockquote>
@@ -1345,7 +1345,7 @@
     
     <entry>
       <title><![CDATA[polyfill — Respond.js]]></title>
-      <url>https://neveryu.github.io/2017/02/11/respond-js/</url>
+      <url>https://beiliergo.github.io/2017/02/11/respond-js/</url>
       <content type="html"><![CDATA[<blockquote>
 <p>Respond.js 让不支持 css3 Media Query 的浏览器包括 IE6-IE8 等其他浏览器支持媒体查询。</p>
 </blockquote>
@@ -1417,7 +1417,7 @@
     
     <entry>
       <title><![CDATA[腻子脚本 — HTML5Shiv]]></title>
-      <url>https://neveryu.github.io/2017/01/18/html5shiv/</url>
+      <url>https://beiliergo.github.io/2017/01/18/html5shiv/</url>
       <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p><a href="https://github.com/aFarkas/html5shiv" target="_blank" rel="external">HTML5shiv</a> is a javascript workaround to provide support for the new HTML 5 elements in IE Browsers older than IE 9.</p>
 <ul>
 <li>越来越多的站点开始使用 HTML5 标签。但是目前的情况是还有很多人在使用IE6，IE7，IE8。</li>
@@ -1464,7 +1464,7 @@
 <h3 id="XHTML-1-0-Strict-Document"><a href="#XHTML-1-0-Strict-Document" class="headerlink" title="XHTML 1.0 Strict Document"></a>XHTML 1.0 Strict Document</h3><p>HTML5shiv does not apply to XHTML 1.0 Strict.</p>
 <h3 id="XHTML-1-1-Document"><a href="#XHTML-1-1-Document" class="headerlink" title="XHTML 1.1 Document"></a>XHTML 1.1 Document</h3><p>HTML5shiv does not apply to XHTML 1.1.</p>
 <h1 id="Tips"><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h1><p>关于低版本浏览器不能识别 HTML5 标签的问题，除了使用 html5shiv.js 之外，还有一种做法就是为网站创建多套模版，通过程序对 User-Agent 的判断给不同的浏览器用户显示不同的页面，比如优酷网就是采用的这种模式。</p>
-<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p><a href="https://neveryu.github.io/2017/01/18/html5shiv/">HTML5Shiv</a> and <a href="https://neveryu.github.io/2017/02/11/respond-js/">Respond.js</a> for IE8 support of HTML5 elements and media queries.</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p><a href="https://neveryu.github.io/2017/01/18/html5shiv/" target="_blank" rel="external">HTML5Shiv</a> and <a href="https://neveryu.github.io/2017/02/11/respond-js/" target="_blank" rel="external">Respond.js</a> for IE8 support of HTML5 elements and media queries.</p>
 ]]></content>
       
         <categories>
@@ -1484,7 +1484,7 @@
     
     <entry>
       <title><![CDATA[【转】为什么一些生活中很外向开朗的人会喜欢独来独往]]></title>
-      <url>https://neveryu.github.io/2016/12/24/why-introversion-like-alone/</url>
+      <url>https://beiliergo.github.io/2016/12/24/why-introversion-like-alone/</url>
       <content type="html"><![CDATA[<p id="div-border-left-purple">因为他是一个内向的人。<br>    不要怀疑，很多人都是这样。<br><br>    内向的人，通过独处来恢复精力。<br>    所以他们不是喜欢孤独，而是，孤独才是他们的常态。<br>    他们跟别人交流、相处，其实都是在消耗精力。<br></p>
 
 
@@ -1529,7 +1529,7 @@
     
     <entry>
       <title><![CDATA[Hexo-NexT搭建个人博客（四）]]></title>
-      <url>https://neveryu.github.io/2016/12/15/hexo-next-four/</url>
+      <url>https://beiliergo.github.io/2016/12/15/hexo-next-four/</url>
       <content type="html"><![CDATA[<p id="div-border-left-blue">提示：本篇文章将介绍在使用 heox 做博客框架中的一些 bug 处理情况。</p>
 
 <p>按照之前的教程介绍应该是会比较顺利的搭建好你的博客，但是难免会遇到一些意外，这个时候就要学会解决问题了。<br>解决问题的原则是：查看 bug 信息，从上到下依次解决 bug。</p>
@@ -1572,7 +1572,7 @@
     
     <entry>
       <title><![CDATA[jQuery使用技巧]]></title>
-      <url>https://neveryu.github.io/2016/11/22/use-jquery-skill/</url>
+      <url>https://beiliergo.github.io/2016/11/22/use-jquery-skill/</url>
       <content type="html"><![CDATA[<h3 id="禁用页面的右键菜单"><a href="#禁用页面的右键菜单" class="headerlink" title="禁用页面的右键菜单"></a>禁用页面的右键菜单</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="built_in">document</span>).ready(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;  </span><br><span class="line">  $(<span class="built_in">document</span>).bind(<span class="string">"contextmenu"</span>,<span class="function"><span class="keyword">function</span>(<span class="params">e</span>)</span>&#123;  </span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;  </span><br><span class="line">  &#125;);  </span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
 <h3 id="新窗口打开页面"><a href="#新窗口打开页面" class="headerlink" title="新窗口打开页面"></a>新窗口打开页面</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">"en"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span>&gt;</span>Document<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">"jquery.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"https://www.google.com"</span>&gt;</span>google_新窗口<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"https://www.google.com"</span> <span class="attr">rel</span>=<span class="string">"external"</span>&gt;</span>google_新窗口<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"demo1.html"</span>&gt;</span>当前窗口<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="undefined"></span></span><br><span class="line"><span class="javascript">  $(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span></span><br><span class="line"><span class="javascript">    $(<span class="string">'a[href^="http://"]'</span>).attr(<span class="string">"target"</span>,<span class="string">"_blank"</span>);</span></span><br><span class="line"><span class="undefined">  &#125;);</span></span><br><span class="line"><span class="undefined"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <h3 id="输入框文字获取和失去焦点【推荐】"><a href="#输入框文字获取和失去焦点【推荐】" class="headerlink" title="输入框文字获取和失去焦点【推荐】"></a><font color="#099">输入框文字获取和失去焦点【推荐】</font></h3><a id="more"></a>
@@ -1614,7 +1614,7 @@
     
     <entry>
       <title><![CDATA[中国国内 JavaScript 圈的现状如何]]></title>
-      <url>https://neveryu.github.io/2016/11/18/china-javascript-environment/</url>
+      <url>https://beiliergo.github.io/2016/11/18/china-javascript-environment/</url>
       <content type="html"><![CDATA[<p id="div-border-top-purple"><span style="color:red;">探讨核心：</span> 我们不编写代码，我们只是国外优秀框架的搬运工。</p>
 
 <p><img src="/images/javascript-environment-1.jpg" alt=""></p>
@@ -1693,9 +1693,9 @@
     
     <entry>
       <title><![CDATA[Hexo-NexT搭建个人博客（三）]]></title>
-      <url>https://neveryu.github.io/2016/11/11/hexo-next-three/</url>
+      <url>https://beiliergo.github.io/2016/11/11/hexo-next-three/</url>
       <content type="html"><![CDATA[<p>　　经过前面两期文章，我相信你已经可以在本地建立一个非常令人满意的静态博客了，本篇文章将介绍如何将自己的静态博客部署到 gitpage 上，并托管到 github 上；以及关于 Hexo 和 NexT 中更深层次的一些问题及解方案。</p>
-<h2 id="一、菜单栏中标签与侧边栏中标签关联的问题"><a href="#一、菜单栏中标签与侧边栏中标签关联的问题" class="headerlink" title="一、菜单栏中标签与侧边栏中标签关联的问题"></a>一、菜单栏中标签与侧边栏中标签关联的问题</h2><p>　　以我的博客为例，关于菜单栏中的选项 与侧边栏中的选项，由于顶部菜单栏中位置有限，所以我就想在顶部菜单栏中不显示<strong>标签</strong>这一项，于是我在 <span id="inline-purple">主题配置文件</span> 中 将 menu 配置项中的<strong>标签</strong>这一个选项给注释掉了，所以它不会在菜单栏中显示，但是不代表没有这个页面，这个页面是存在的，我们只是使其不显示在顶部的菜单栏中而已，我们可以直接输入绝对地址来查看这个页面，例如：<a href="https://neveryu.github.io/tags/">https://neveryu.github.io/tags/</a>。但是与此同时，我们发现侧边栏中的<b>标签</b>选项只能显示标签数量，不能点击。</p>
+<h2 id="一、菜单栏中标签与侧边栏中标签关联的问题"><a href="#一、菜单栏中标签与侧边栏中标签关联的问题" class="headerlink" title="一、菜单栏中标签与侧边栏中标签关联的问题"></a>一、菜单栏中标签与侧边栏中标签关联的问题</h2><p>　　以我的博客为例，关于菜单栏中的选项 与侧边栏中的选项，由于顶部菜单栏中位置有限，所以我就想在顶部菜单栏中不显示<strong>标签</strong>这一项，于是我在 <span id="inline-purple">主题配置文件</span> 中 将 menu 配置项中的<strong>标签</strong>这一个选项给注释掉了，所以它不会在菜单栏中显示，但是不代表没有这个页面，这个页面是存在的，我们只是使其不显示在顶部的菜单栏中而已，我们可以直接输入绝对地址来查看这个页面，例如：<a href="https://neveryu.github.io/tags/" target="_blank" rel="external">https://neveryu.github.io/tags/</a>。但是与此同时，我们发现侧边栏中的<b>标签</b>选项只能显示标签数量，不能点击。</p>
 <a id="more"></a>
 <p>　　这是因为侧边栏中的点击链接是根据菜单栏中对应的项来添加的，什么意思呢？就是说如果顶部菜单栏中有 <strong>标签</strong> 这一项，那么就会给侧边栏中<b>标签</b>这一项也添加点击链接；如果顶部菜单栏中没有<b>标签</b>这一项，那么就不给侧边栏中<b>标签</b>这一项添加点击链接，导致侧边栏中的<b>标签</b>项只有显示数据，不提供点击链接。<br>　　如果我们不想在菜单栏中显示<b>标签</b>项，但是希望侧边栏中的<b>标签</b>项 可以点击，该怎么做呢？<br>　　在 <span id="inline-purple">主题配置文件</span> <code>\themes\next\layout\_macro\sidebar.swing_</code> 中，将<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&#123;% if site.tags.length &gt; 0 %&#125;</span><br><span class="line">  &lt;div class=&quot;site-state-item site-state-tags&quot;&gt;</span><br><span class="line">    &#123;% if theme.menu.tags %&#125;&lt;a href=&quot;&#123;&#123; url_for(theme.menu.tags) &#125;&#125;&quot;&gt;&#123;% endif %&#125;</span><br><span class="line">      &lt;span class=&quot;site-state-item-count&quot;&gt;&#123;&#123; site.tags.length &#125;&#125;&lt;/span&gt;</span><br><span class="line">      &lt;span class=&quot;site-state-item-name&quot;&gt;&#123;&#123; __(&apos;state.tags&apos;) &#125;&#125;&lt;/span&gt;</span><br><span class="line">    &#123;% if theme.menu.tags %&#125;&lt;/a&gt;&#123;% endif %&#125;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure></p>
 <p>改成：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&#123;% if site.tags.length &gt; 0 %&#125;</span><br><span class="line">  &lt;div class=&quot;site-state-item site-state-tags&quot;&gt;</span><br><span class="line">    &lt;a href=&quot;&#123;&#123; url_for(theme.menu.tags) &#125;&#125;&quot;&gt;</span><br><span class="line">      &lt;span class=&quot;site-state-item-count&quot;&gt;&#123;&#123; site.tags.length &#125;&#125;&lt;/span&gt;</span><br><span class="line">      &lt;span class=&quot;site-state-item-name&quot;&gt;&#123;&#123; __(&apos;state.tags&apos;) &#125;&#125;&lt;/span&gt;</span><br><span class="line">    &lt;/a&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure></p>
@@ -1738,7 +1738,7 @@
     
     <entry>
       <title><![CDATA[Sass 教程]]></title>
-      <url>https://neveryu.github.io/2016/10/23/sass/</url>
+      <url>https://beiliergo.github.io/2016/10/23/sass/</url>
       <content type="html"><![CDATA[<p><span id="inline-blue" style="font-size:100%;border-radius:3px;">Sass</span>： (Syntactically Awesome StyleSheets)</p>
 <h1 id="sass简介"><a href="#sass简介" class="headerlink" title="sass简介"></a>sass简介</h1><p>来自于官网的简介：<br>Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.</p>
 <font color="red"> Sass 是世界上最成熟的，稳定的，功能强大的专业级 CSS 扩展语言。</font>
@@ -1875,7 +1875,7 @@
     
     <entry>
       <title><![CDATA[【转】在2016年学JavaScript是一种什么样的体验]]></title>
-      <url>https://neveryu.github.io/2016/10/16/how-it-feels-to-learn-javascript-in-2016/</url>
+      <url>https://beiliergo.github.io/2016/10/16/how-it-feels-to-learn-javascript-in-2016/</url>
       <content type="html"><![CDATA[<p id="div-border-left-blue" style="width:90%;">嘿，我最近接到一个 Web 项目，不过老实说，我这两年没怎么接触 Web 编程，听说 Web 技术已经发生了一些变化。听说你是这里对新技术最了解的 Web 开发工程师？</p>
 
 <p id="div-border-right-green" style="width:90%;margin-left:10%">准确地说，我是一名「前端工程师」。不过你算是找对人了。我对今年的技术别提多熟了，前端可视化、音乐播放器、能踢足球的无人机，你尽管问吧。我刚去 JS 大会和 React 大会逛了一圈，没有什么新技术是我不知道的。</p>
@@ -2235,7 +2235,7 @@
     
     <entry>
       <title><![CDATA[Git学习总结]]></title>
-      <url>https://neveryu.github.io/2016/10/07/git/</url>
+      <url>https://beiliergo.github.io/2016/10/07/git/</url>
       <content type="html"><![CDATA[<h2 id="git-简介"><a href="#git-简介" class="headerlink" title="git 简介"></a>git 简介</h2><p>git 是分布式的，所以其核心就是分支，分支的意义在于，可以将项目代码按照功能、模块拆分成不同的分支。比如这个产品要加一个支付功能和一个登陆功能，可以创建两个分支，交给不同的开发人员并行开发。登陆功能先开发完，测试无误后合并改分支到 master 分支，master 分支部署上线。支付功能虽然没有开发完成，但是在另一条分支上，所以产品上线和功能开发完全不受影响。这才是分布式开发的高效模式。<br>在 git 中，工作目录下面的所有文件都不外乎这两种状态：<strong>已跟踪</strong>或<strong>未跟踪</strong>。已跟踪的文件是指本来就被纳入版本控制管理的文件，在上次快照中有它们的记录，工作一段时间后，它们的状态可能是未更新，已修改或者已放入暂存区。而所有其他文件都属于未跟踪文件。它们既没有上次更新时的快照，也不在当前的暂存区域。初次克隆某个仓库时，工作目录中的所有文件都属于已跟踪文件，且状态为未修改。</p>
 <a id="more"></a>
 <h2 id="实用指令详解"><a href="#实用指令详解" class="headerlink" title="实用指令详解"></a>实用指令详解</h2><h3 id="merge"><a href="#merge" class="headerlink" title="merge"></a>merge</h3><p>通常，合并分支时，如果可能，Git 会用 Fast froward 模式，但这种模式下，删除分支后，会丢掉分支信息。<br>如果要强制禁用 Fast forward 模式，Git 就会在 merge 时生成一个新的 commit ，这样，从分支历史上就可以看出分支信息。<br><code>git merge --no-ff -m &#39;merge  with no-ff&#39; dev</code><br>因为本次合并要创建一个新的 commit，所以加上 -m 参数，把 commit 描述写进去。</p>
@@ -2333,7 +2333,7 @@
     
     <entry>
       <title><![CDATA[Hexo-NexT搭建个人博客（二）]]></title>
-      <url>https://neveryu.github.io/2016/09/30/hexo-next-two/</url>
+      <url>https://beiliergo.github.io/2016/09/30/hexo-next-two/</url>
       <content type="html"><![CDATA[<p>本篇文章将介绍基于NexT主题下的一些扩展功能的实现。<br>首先，我们需要明白：</p>
 <p id="div-border-left-yellow">在 Hexo 中有两份主要的配置文件，其名称都是 _config.yml 。其中，一份位于站点根目录下，主要包含 Hexo 本身的配置；另一份位于主题目录下，这份配置由主题作者提供，主要用于配置主题相关的选项。<br>  我们约定，将前者称为 <span id="inline-blue">站点配置文件</span>，后者称为 <span id="inline-purple">主题配置文件</span></p>
 
@@ -2380,13 +2380,13 @@
     
     <entry>
       <title><![CDATA[如果深圳的夜晚没有风]]></title>
-      <url>https://neveryu.github.io/2016/09/25/essay-20160925/</url>
+      <url>https://beiliergo.github.io/2016/09/25/essay-20160925/</url>
       <content type="html"><![CDATA[<p id="div-border-top-green">这座城市人很多，每天在路上都能看到好多拉着行李箱的人，不管他们是来到这座城市还是离开这座城市，至少他们都曾努力过。<br></p>
 
 <p><br></p>
 <a id="more"></a>
 <p>其实专业做博客的网站还是挺多的，比如说 CSDN 是吧，我之前也是在 CSDN 上面写一点东西，我的 CSDN 博客 <a href="http://blog.csdn.net/csdn_yudong" target="_blank" rel="external">http://blog.csdn.net/csdn_yudong</a> 。但是 CSDN 毕竟是一个技术类的博客网站，如果写一点生活杂谈还是不太好，而且 CSDN 上面挂载的广告，以及页面风格，我不太喜欢，因为我喜欢【精于心，简于形】，这波 <a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">NexT</a> 主题的广告是不是很硬。</p>
-<p>在我想做博客之前，一直到我开始着手做这个博客，其实花了好久时间。而在我着手开始做这个博客，到这个博客完成，其实并没有花多久。也说明了一个道理，就是一定要勇于尝试，关键是要动手。我想起了马士兵老师的一句话，一个新鲜的事物，你一定要先去用它，应用驱动学习。——<a href="https://neveryu.github.io/weblog/">我的建站日志</a>有记录网站的建设过程。</p>
+<p>在我想做博客之前，一直到我开始着手做这个博客，其实花了好久时间。而在我着手开始做这个博客，到这个博客完成，其实并没有花多久。也说明了一个道理，就是一定要勇于尝试，关键是要动手。我想起了马士兵老师的一句话，一个新鲜的事物，你一定要先去用它，应用驱动学习。——<a href="https://neveryu.github.io/weblog/" target="_blank" rel="external">我的建站日志</a>有记录网站的建设过程。</p>
 <p>究其原因：第一个，我觉得是自己考虑的太多，没有太大的把握就不会轻易的去尝试，所以我在着手做这个之前花了很多的时间去查，域名空间这些的，而且这些出售这些的服务商也挺多的，我这个人有选择恐惧症。也是怪尴尬的，每次看到一个东西有好多选择的时候，我都去比较，去分析，头痛。。而且我想，域名空间搞好以后，还要自己写页面这些的。关键是还要设计博客风格，页面样式这些的，一想到这些，就感觉是一个不小的工程啊，后来才发现我多虑了。</p>
 <p>后来，无意中看到了 Hexo 的 Next 主题的一篇博客，风格样式挺不错的，感谢 <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a> 和 <a href="http://theme-next.iissnan.com/" target="_blank" rel="external">Next</a> 的文档写的如此的棒，以至于每一个人都能根据教程搭建一个自己的博客。这一切是如此的美好。</p>
 ]]></content>
@@ -2408,7 +2408,7 @@
     
     <entry>
       <title><![CDATA[Hexo-NexT搭建个人博客（一）]]></title>
-      <url>https://neveryu.github.io/2016/09/03/hexo-next-one/</url>
+      <url>https://beiliergo.github.io/2016/09/03/hexo-next-one/</url>
       <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p><a href="https://hexo.io/zh-cn/" target="_blank" rel="external">Hexo</a> 是一个快速、简洁且高效的静态站点生成框架，它基于 <a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a> 。 它有以下特点：</p>
 <ul>
 <li><i class="fa fa-bolt"></i><h6 style="display: inline;">　超快速度</h6><br><i>Node.js 所带来的超快生成速度，让上百个页面在几秒内瞬间完成渲染。</i></li>
@@ -2419,7 +2419,7 @@
 <p>通过 Hexo 你可以轻松地使用 Markdown 编写文章，除了 Markdown 本身的语法之外，还可以使用 Hexo 提供的 <a href="https://hexo.io/zh-cn/docs/tag-plugins.html" target="_blank" rel="external">标签插件</a> 来快速的插入特定形式的内容。</p>
 <p>基于 Hexo 这个优秀的博客框架，很多优秀的开发者奉献出了它们基于 Hexo 开发的<a href="https://hexo.io/themes/" target="_blank" rel="external">主题</a>。<br><a href="http://theme-next.iissnan.com/" target="_blank" rel="external">NexT</a> 因其 <span id="yu-1">精于心，简于形</span> 的风格，一直被广大用户所喜爱。</p>
 <a id="more"></a>
-<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>安装 Hexo 只需几分钟时间，若你在安装过程中遇到问题或无法找到解决方式，请<a href="https://neveryu.github.io/guestbook/">提交问题</a>，我会尽力解决你的问题。</p>
+<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>安装 Hexo 只需几分钟时间，若你在安装过程中遇到问题或无法找到解决方式，请<a href="https://neveryu.github.io/guestbook/" target="_blank" rel="external">提交问题</a>，我会尽力解决你的问题。</p>
 <h2 id="安装前提"><a href="#安装前提" class="headerlink" title="安装前提"></a>安装前提</h2><p>安装 Hexo 相当简单。然而在安装前，您必须检查电脑中是否已安装下列应用程序:</p>
 <blockquote>
 <p><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a><br><a href="http://git-scm.com/" target="_blank" rel="external">Git</a></p>
